@@ -1,0 +1,348 @@
+{% extends 'base.html' %}
+
+{% block title %}Team | Sanlayan{% endblock title %}
+
+{% block body %}
+<!-- [3] Page-Header -->
+<header class="page-header parallax-window bg_img dark_overlay" data-src="http://via.placeholder.com/1920x1080">
+    <div class="container breadcrumbs-wrapper">
+        <div class="breadcrumbs d-flex flex-column justify-content-center">
+            <h1 class="title">Team</h1>
+            <div>
+                <ul class="breadcrumbs-list d-flex">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Team</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- [4] About Person -->
+<section class="about-person">
+    <div class="container large-section">
+        <div class="row about-person-wrapper">
+            <div class="col-lg-6 image-wrapper" data-aos="fade-right"
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-delay="150"
+                 data-aos-duration="600"
+                 data-aos-easing="ease-in-out">
+                <img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+            </div>
+            <div class="col-lg-6 d-flex align-items-center">
+                <div data-aos="fade-left"
+                     data-aos-anchor-placement="top-bottom"
+                     data-aos-delay="200"
+                     data-aos-duration="600"
+                     data-aos-easing="ease-in-out">
+                    <h3 class="name">Jonathan Doe</h3>
+                    <p class="position">Founder And CEO</p>
+                    <p class="description">
+                        Morbi in dui quis est pulvinar ullamcorper nulla facilisi. Integer lacinia sollicitudin
+                        massa.
+                        Cras metused aliquet risus a tortor integer id quam morbi mi. Quisque nisl felis,
+                        venenatis
+                        tristique
+                    </p>
+                    <div class="btn-wrapper d-flex">
+                        <a class="button-default-black" href="#"><i class="fa fa-angle-double-down"></i>Download CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- [5] Video Section -->
+<section class="video-section parallax-window color_overlay" data-speed="0.5"
+         data-src="http://via.placeholder.com/1920x1080">
+    <div class="container video-wrapper d-flex flex-column align-items-center"
+         data-aos="fade-up"
+         data-aos-anchor-placement="top-bottom"
+         data-aos-delay="150"
+         data-aos-duration="600"
+         data-aos-easing="ease-in-out">
+        <h3 class="title">Stunning Design gor Startups</h3>
+        <p>In scelerisque sem at dolor maecenas mattis sed convallis tristique sem.
+           Proin ut ligula vel nunc
+           egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis
+           quis ligula lacinia aliquetm auris ipsum.</p>
+        <a class="popup-modal video-popup d-flex align-items-center justify-content-center"
+           href="#video-post-1">
+            <div class="play d-flex align-items-center justify-content-center">
+                <i class="fa fa-play"></i>
+            </div>
+        </a>
+        <div class="white-popup-block mfp-hide mfp-fade" id="video-post-1">
+            <div class="modal-video-box">
+                <iframe allowfullscreen
+                        src="https://www.youtube.com/embed/KyKgBzFypzc"></iframe>
+                <button class="mfp-close" title="Close (Esc)" type="button">×</button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- [6] Team Grid -->
+<section class="meet-team cards-section gray-section"
+         style="background-image: url('assets/img/assets/absurdity.png')">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title text-center title-divider"
+                    data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"
+                    data-aos-delay="100"
+                    data-aos-duration="700"
+                    data-aos-easing="ease-in-out">Meet Our Team
+                    <span class="highlight">.</span>
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-delay="150"
+                 data-aos-duration="600"
+                 data-aos-easing="ease-in-out">
+                <div class="team-member-type-2">
+                    <div class="img-wrapper">
+                        <img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+                    </div>
+                    <div class="description-box">
+                        <h6 class="name">Frank Horrigan</h6>
+                        <p class="position">Lead Developer</p>
+                        <div class="social-wrapper d-flex">
+                            <a class="social-box facebook-h" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="social-box twitter-h" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="social-box linkedin-h" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="social-box google-plus-h" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-delay="200"
+                 data-aos-duration="600"
+                 data-aos-easing="ease-in-out">
+                <div class="team-member-type-2">
+                    <div class="img-wrapper">
+                        <img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+                    </div>
+                    <div class="description-box">
+                        <h6 class="name">Richard Nilson</h6>
+                        <p class="position">Product Designer</p>
+                        <div class="social-wrapper d-flex">
+                            <a class="social-box facebook-h" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="social-box twitter-h" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="social-box linkedin-h" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="social-box google-plus-h" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-delay="250"
+                 data-aos-duration="600"
+                 data-aos-easing="ease-in-out">
+                <div class="team-member-type-2">
+                    <div class="img-wrapper">
+                        <img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+                    </div>
+                    <div class="description-box">
+                        <h6 class="name">Sara Smith</h6>
+                        <p class="position">Founder & CEO</p>
+                        <div class="social-wrapper d-flex">
+                            <a class="social-box facebook-h" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="social-box twitter-h" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="social-box linkedin-h" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="social-box google-plus-h" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-delay="300"
+                 data-aos-duration="600"
+                 data-aos-easing="ease-in-out">
+                <div class="team-member-type-2">
+                    <div class="img-wrapper">
+                        <img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+                    </div>
+                    <div class="description-box">
+                        <h6 class="name">Alex Gray</h6>
+                        <p class="position">Developer</p>
+                        <div class="social-wrapper d-flex">
+                            <a class="social-box facebook-h" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="social-box twitter-h" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="social-box linkedin-h" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="social-box google-plus-h" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-delay="150"
+                 data-aos-duration="600"
+                 data-aos-easing="ease-in-out">
+                <div class="team-member-type-2">
+                    <div class="img-wrapper">
+                        <img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+                    </div>
+                    <div class="description-box">
+                        <h6 class="name">Frank Horrigan</h6>
+                        <p class="position">Lead Developer</p>
+                        <div class="social-wrapper d-flex">
+                            <a class="social-box facebook-h" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="social-box twitter-h" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="social-box linkedin-h" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="social-box google-plus-h" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-delay="200"
+                 data-aos-duration="600"
+                 data-aos-easing="ease-in-out">
+                <div class="team-member-type-2">
+                    <div class="img-wrapper">
+                        <img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+                    </div>
+                    <div class="description-box">
+                        <h6 class="name">Richard Nilson</h6>
+                        <p class="position">Product Designer</p>
+                        <div class="social-wrapper d-flex">
+                            <a class="social-box facebook-h" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="social-box twitter-h" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="social-box linkedin-h" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="social-box google-plus-h" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-delay="250"
+                 data-aos-duration="600"
+                 data-aos-easing="ease-in-out">
+                <div class="team-member-type-2">
+                    <div class="img-wrapper">
+                        <img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+                    </div>
+                    <div class="description-box">
+                        <h6 class="name">Sara Smith</h6>
+                        <p class="position">Founder & CEO</p>
+                        <div class="social-wrapper d-flex">
+                            <a class="social-box facebook-h" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="social-box twitter-h" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="social-box linkedin-h" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="social-box google-plus-h" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6"
+                 data-aos="fade-up"
+                 data-aos-anchor-placement="top-bottom"
+                 data-aos-delay="300"
+                 data-aos-duration="600"
+                 data-aos-easing="ease-in-out">
+                <div class="team-member-type-2">
+                    <div class="img-wrapper">
+                        <img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+                    </div>
+                    <div class="description-box">
+                        <h6 class="name">Alex Gray</h6>
+                        <p class="position">Developer</p>
+                        <div class="social-wrapper d-flex">
+                            <a class="social-box facebook-h" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a class="social-box twitter-h" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a class="social-box linkedin-h" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a class="social-box google-plus-h" href="#">
+                                <i class="fab fa-google-plus-g"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

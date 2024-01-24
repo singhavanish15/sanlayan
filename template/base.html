@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+	<meta charset=UTF-8>
+	<meta content="width=device-width, initial-scale=1.0" name=viewport>
+	<meta content="ie=edge" http-equiv="x-ua-compatible">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta content="#ee3158" name="theme-color" />
+	<!-- Windows Phone -->
+	<meta content="#ee3158" name="msapplication-navbutton-color" />
+	<meta content=#FFFFFF name=msapplication-TileColor>
+	<meta content=favicon.ico name=msapplication-TileImage>
+	<!-- iOS Safari -->
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black-transcluent" name="apple-mobile-web-app-status-bar-style" />
+	<title>{% block title %}{% endblock title %}</title>
+	
+	<!-- css-files -->
+	<link href="static/assets/css/font-awesome.min.css" rel="stylesheet">
+	<link href="static/assets/css/swiper.min.css" rel="stylesheet">
+	<link href="static/assets/css/magnific-popup.min.css" rel="stylesheet">
+	<link href="static/assets/css/aos.min.css" rel="stylesheet">
+	<link href="static/assets/css/fonts.css" rel="stylesheet">
+	<link href="static/assets/css/main.css" rel="stylesheet">
+</head>
+<!--
+[Home Page]
+[1] Page Loader
+[2] Navigation-Menu
+[3] Hero-Header
+[4] About Section
+[5] Digital Services
+[6] Counter Section
+[7] Team Section
+[8] Blockquote Section
+[9] Content Section
+[10] Recent Projects
+[11] Testimonials
+[12] Recent Posts
+[13] Footer
+-->
+<body>
+<!-- [1] Page Loader -->
+<div class="loader">
+	<div class="loading">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</div>
+<div class="wrapper-hidden z-index-100" id="main-wrapper">
+	<!-- [2] Navigation-Menu -->
+	<nav class="navigation navigation-type-2">
+		<div class="inner-wrapper">
+			<div class="navigation-wrapper">
+				<div class="logotype-wrapper">
+					<a href="index.html">
+						<img alt="Logo"
+						     src="static/img/logo.jpg">
+					</a>
+				</div>
+			    <div>
+					<h2>Sanlayan</h2>
+				</div>
+				<div class="right-side">
+					<div class="menu-list-wrapper">
+						<ul class="menu-list">
+							<li class="menu-item">
+								<a href="/">Home</a>
+							</li>
+							<li class="menu-item menu-item-has-children">
+								<a>About Us</a>
+								<ul class="sub-menu">
+									<li class="menu-item"><a href="about">About</a></li>
+									<li class="menu-item"><a href="services">Services</a></li>
+									<li class="menu-item"><a href="team">Team</a></li>
+								</ul>
+							</li>
+							
+							<li class="menu-item">
+								<a href="gallery">Gallery</a>
+							</li>
+							<li class="menu-item">
+								<a href="contact">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="social-list">
+						<li>
+							<a href="https://themeforest.net/user/jkdevstudio">
+								<i class="fab fa-facebook-f"
+								   style="color: #3B5999;"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://themeforest.net/user/jkdevstudio">
+								<i class="fab fa-twitter"
+								   style="color: #1DA1F2;"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://themeforest.net/user/jkdevstudio">
+								<i class="fab fa-behance"
+								   style="color: #053EFF;"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://themeforest.net/user/jkdevstudio">
+								<i class="fab fa-reddit"
+								   style="color: #FF4301;"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://themeforest.net/user/jkdevstudio">
+								<i class="fab fa-dribbble"
+								   style="color: #EA4C89;"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://themeforest.net/user/jkdevstudio">
+								<i class="fab fa-vine"
+								   style="color: #00B488;"></i>
+							</a>
+						</li>
+					</ul>
+					<div class="search-form-toggle">
+						<i class="fa fa-search"></i>
+					</div>
+				</div>
+			</div>
+			<div class="search-form-wrapper">
+				<div class="search-form">
+					<div class="form-wrapper">
+						<form role="search">
+							<input class="search-field" placeholder="Enter some keywords..."
+							       title="Enter some keywords..."
+							       type="search">
+							<button class="search-submit" type="submit">
+								<i class="icofont-search"></i>
+							</button>
+						</form>
+						<div class="search-form-close">
+							<i class="far fa-times-circle"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<nav class="navigation-mobile">
+		<div class="inner-wrapper">
+			<!-- Logotype -->
+			<div class="logotype-wrapper">
+				<a href="index.html">
+					<img alt="Logo"
+					     src="static/img/logo.jpg">
+				</a>
+			</div>
+			<div class="navigation-side">
+				<div class="search-form-toggle toggle-button">
+					<i class="fa fa-search"></i>
+				</div>
+				<div class="menu-toggle-wrapper">
+					<div class="menu-toggle toggle-button">
+						<i class="fa fa-bars"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="search-form-wrapper">
+			<div class="search-form">
+				<div class="form-wrapper">
+					<form role="search">
+						<input class="search-field" placeholder="Enter some keywords..."
+						       title="Enter some keywords..."
+						       type="search">
+						<button class="search-submit" type="submit">
+							<i class="icofont-search"></i>
+						</button>
+					</form>
+					<div class="search-form-close">
+						<i class="far fa-times-circle"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Menu list -->
+		<div class="menu-list-wrapper" data-back-link="go back">
+			<div class="menu-toggle-close">
+				<i class="far fa-times-circle"></i>
+			</div>
+			<ul class="menu-list">
+				<li class="menu-item">
+					<a href="/">Home</a>
+				</li>
+				<li class="menu-item menu-item-has-children">
+					<a>About Us</a>
+					<ul class="sub-menu">
+						<li class="menu-item"><a href="about">About</a></li>
+						<li class="menu-item"><a href="services">Services</a></li>
+						<li class="menu-item"><a href="team">Team</a></li>
+					
+					</ul>
+				</li>
+
+				<li class="menu-item">
+					<a href="gallery">Gallery</a>
+				</li>
+				<li class="menu-item">
+					<a href="contact">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+				
+						
+						
+					
+	</nav>
+
+    {% block body %}
+    {% endblock %}
+
+
+
+
+    <footer>
+		<div class="container-fluid footer-inner">
+			<div class="footer-top">
+				<div class="container footer-top-inner">
+					<p class="info-text">SANLAYAN</p>
+					<a href="/">
+						<div class="footer-logo">
+							<img alt="Logo" class="img-fluid" src="static/img/logo.jpg">
+						</div>
+					</a>
+					<div class="social-networks">
+						<p class="title">Social Networks: </p>
+						<ul class="social-list">
+							<li>
+								<a href="https://themeforest.net/user/jkdevstudio">
+									<i class="fab fa-facebook-f"
+									   style="color: #3B5999;"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://themeforest.net/user/jkdevstudio">
+									<i class="fab fa-twitter"
+									   style="color: #1DA1F2;"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://themeforest.net/user/jkdevstudio">
+									<i class="fab fa-behance"
+									   style="color: #053EFF;"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://themeforest.net/user/jkdevstudio">
+									<i class="fab fa-dribbble"
+									   style="color: #EA4C89;"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://themeforest.net/user/jkdevstudio">
+									<i class="fab fa-vine"
+									   style="color: #00B488;"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-body">
+				<div class="container">
+					<div class="footer-sidebar">
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="sidebar-widget text-widget">
+									<h6 class="sidebar-title">About Us</h6>
+									<p>Our team members have combined experience of >80 
+										Years in Banking and financial services , Fund Raising 
+										,Financial Management ,Sales and Operations</p>
+									<h6 class="sidebar-title">Subscribe newsletter</h6>
+									<form class="newsletter-form-widget">
+										<input placeholder="Email*" required type="email">
+										<button type="submit"><i class="fa fa-envelope"></i></button>
+									</form>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="sidebar-widget latest-posts-widget">
+									<h6 class="sidebar-title"></h6>
+									<ul class="post-list">
+										<li class="post">
+											<a href="#">
+												<div class="img-wrapper">
+													<img alt="" class="img-fluid"
+													     src="http://via.placeholder.com/1920x1080">
+												</div>
+											</a>
+											<div class="post-body">
+												<h6 class="post-title"><a href="#"></a></h6>
+												<div class="description-box"><p class="date"> <a
+														href="#"></a></p></div>
+											</div>
+										</li>
+										<li class="post">
+											<a href="#">
+												<div class="img-wrapper">
+													<img alt="" class="img-fluid"
+													     src="http://via.placeholder.com/1920x1080">
+												</div>
+											</a>
+											<div class="post-body">
+												<h6 class="post-title"><a href="#"></a></h6>
+												<div class="description-box"><p class="date"> <a
+														href="#"></a></p></div>
+											</div>
+										</li>
+										<li class="post">
+											<a href="#">
+												<div class="img-wrapper">
+													<img alt="" class="img-fluid"
+													     src="http://via.placeholder.com/1920x1080">
+												</div>
+											</a>
+											<div class="post-body">
+												<h6 class="post-title"><a href="#"></a></h6>
+												<div class="description-box"><p class="date"><a
+														href="#"></a></p></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="sidebar-widget contact-info-widget">
+									<h6 class="sidebar-title">Contact Info</h6>
+									<p class="description">Vikash Kumar</p>
+									<ul class="contact-info">
+										<li><i class="fa fa-map-marker"></i>
+											<p></p></li>
+										<li><i class="fa fa-envelope"></i><a href="#">vikash362@gmail.com</a></li>
+										<li><i class="fa fa-phone"></i><a href="#">+91-9006811101</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="copyright-wrapper">
+						<p class="copyright"><i class="fa fa-copyright"></i>2023 SANLAYAN. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+<!-- js-files -->
+<!-- JQuery -->
+<script src="static/assets/js/jquery-3.3.1.min.js"></script>
+<!-- AOS -->
+<script src="static/assets/js/aos.min.js"></script>
+<!-- Parallax -->
+<script src="static/assets/js/parallax.min.js"></script>
+<!-- Progress Bars -->
+<script src="static/assets/js/progressbar.min.js"></script>
+<!-- Magnific -->
+<script src="static/assets/js/jquery.magnific-popup.min.js"></script>
+<!-- Three -->
+<script src="static/assets/js/three.min.js"></script>
+<!-- Projector -->
+<script src="static/assets/js/projector.min.js"></script>
+<!-- Renderer -->
+<script src="static/assets/js/canvas-renderer.min.js"></script>
+<!-- ImageLoaded -->
+<script src="static/assets/js/imagesloaded.pkgd.min.js"></script>
+<!-- Anime -->
+<script src="static/assets/js/anime.min.js"></script>
+<!-- Isotope -->
+<script src="static/assets/js/isotope.pkgd.min.js"></script>
+<!-- TweenLite -->
+<script src="static/assets/js/TweenMax.min.js"></script>
+<!-- Hover3D -->
+<script src="static/assets/js/jquery.hover3d.min.js"></script>
+<!-- EasePack -->
+<script src="static/assets/js/EasePack.min.js"></script>
+<!-- Particles -->
+<script src="static/assets/js/particles.min.js"></script>
+<!-- JSColor -->
+<script src="static/assets/js/jscolor.min.js"></script>
+<!-- YoutubeBackground -->
+<script src="static/assets/js/jquery.youtubebackground.min.js"></script>
+<!-- Waypoints -->
+<script src="static/assets/js/jquery.waypoints.min.js"></script>
+<!-- Swiper -->
+<script src="static/assets/js/swiper.min.js"></script>
+<!-- Main JS-file -->
+<script src="static/assets/js/main.js"></script>
+</body>
+</html>

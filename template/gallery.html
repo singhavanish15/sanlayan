@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block title %}Gallery | Sanlayan{% endblock title %}
+
+{% block body %}
+
+<!-- [3] Page-Header -->
+<header class="page-header parallax-window bg_img dark_overlay"
+data-src="static/img/gallery_home.jpg">
+<div class="container breadcrumbs-wrapper">
+<div class="breadcrumbs d-flex flex-column justify-content-center">
+    <h1 class="title">Gallery</h1>
+    <div>
+        <ul class="breadcrumbs-list d-flex">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Gallery</a>
+            </li>
+            <li>
+                <a href="#">Default Gallery</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+</header>
+<!-- [4] Image Gallery -->
+<section class="grid image-gallery popup-gallery"
+ data-aos="fade-up"
+ data-aos-anchor-placement="top-bottom"
+ data-aos-delay="150"
+ data-aos-duration="600"
+ data-aos-easing="ease-in-out">
+ {% for i in gallery_con %}
+<a class="image-item" href="{{i.typename_bgpic.url}}">
+<img alt="" class="img-fluid" src="{{i.typename_bgpic.url}}">
+<i class="fa fa-search"></i>
+</a>
+
+{% endfor %}
+<!-- <a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a>
+<a class="image-item" href="http://via.placeholder.com/1920x1080">
+<img alt="" class="img-fluid" src="http://via.placeholder.com/1920x1080">
+<i class="fa fa-search"></i>
+</a> -->
+</section>
+
+
+{% endblock %}
